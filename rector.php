@@ -19,7 +19,7 @@ return RectorConfig::configure()
         __DIR__ . '/app/tests',
     ])->withSets([
         LevelSetList::UP_TO_PHP_83,
-        SilverstripeLevelSetList::UP_TO_SILVERSTRIPE_52,
+        SilverstripeLevelSetList::UP_TO_SILVERSTRIPE_53,
         SetList::CODE_QUALITY,
         SetList::CODING_STYLE,
         SetList::DEAD_CODE,

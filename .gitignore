@@ -4,6 +4,13 @@
 # Dependencies
 node_modules
 vendor
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Silverstripe
 _resources

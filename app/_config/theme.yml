@@ -1,5 +1,5 @@
 ---
-Name: app_theme
+Name: app-theme
 ---
 SilverStripe\View\SSViewer:
   themes:

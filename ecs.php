@@ -23,7 +23,7 @@ return ECSConfig::configure()
     ->withSkip([
         NotOperatorWithSuccessorSpaceFixer::class,
         ReferenceUsedNamesOnlySniff::class => [
-            __DIR__ . '/app/src/Page/Model/Page.php',
-            __DIR__ . '/app/src/Page/Controller/PageController.php',
+            __DIR__ . '/app/src/Page.php',
+            __DIR__ . '/app/src/PageController.php',
         ],
     ]);

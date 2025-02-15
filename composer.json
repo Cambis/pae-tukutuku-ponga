@@ -13,8 +13,8 @@
         "silverstripe/recipe-cms": "^5.3"
     },
     "require-dev": {
-        "cambis/silverstan": "^0.5",
-        "cambis/silverstripe-rector": "^0.7",
+        "cambis/silverstan": "^1.0",
+        "cambis/silverstripe-rector": "^0.8",
         "ergebnis/composer-normalize": "^2.44",
         "php-parallel-lint/php-parallel-lint": "^1.4",
         "phpstan/extension-installer": "^1.4",
@@ -34,13 +34,13 @@
             "App\\": "app/src"
         },
         "classmap": [
-            "app/src/Page/Model/Page.php",
-            "app/src/Page/Controller/PageController.php"
+            "app/src/Page.php",
+            "app/src/PageController.php"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "app/tests/php"
+            "App\\Tests\\": "app/tests"
         }
     },
     "config": {

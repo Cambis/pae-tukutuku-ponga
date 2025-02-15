@@ -5,7 +5,7 @@ namespace {
     use SilverStripe\CMS\Model\SiteTree;
 
     /**
-     * @see \App\Tests\Page\Model\PageTest
+     * @see \App\Tests\PageTest
      */
     class Page extends SiteTree
     {

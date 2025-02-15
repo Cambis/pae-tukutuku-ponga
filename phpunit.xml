@@ -14,7 +14,7 @@
          verbose="true">
     <testsuites>
         <testsuite name="default">
-            <directory>app/tests/php</directory>
+            <directory>app/tests</directory>
         </testsuite>
     </testsuites>
 

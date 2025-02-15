@@ -1,3 +1,5 @@
+includes:
+    - vendor/cambis/silverstan/bleedingEdge.neon
 parameters:
   level: max
   paths:
@@ -25,3 +27,4 @@ parameters:
       # PHPStan does not support T of Page
       message: "#^PHPDoc tag @template T for class PageController with bound type Page is not supported\\.$#"
       identifier: generics.notSupportedBound
+      reportUnmatched: false

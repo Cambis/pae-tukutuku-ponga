@@ -8,7 +8,7 @@ namespace {
      * @template T of Page
      * @extends ContentController<T>
      *
-     * @see \App\Tests\Page\Controller\PageControllerTest
+     * @see \App\Tests\PageControllerTest
      */
     class PageController extends ContentController
     {
